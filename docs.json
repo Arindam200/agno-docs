@@ -2,6 +2,10 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Agno",
+  "banner": {
+    "content": "You are viewing v1 docs. For the latest documentation, visit [docs.agno.com](https://docs.agno.com)",
+    "dismissible": true
+  },
   "colors": {
     "primary": "#FF4017",
     "light": "#FF4017",
@@ -10,10 +14,6 @@
   "favicon": "/favicon.png",
   "contextual": {
     "options": ["copy", "view", "chatgpt", "claude"]
-  },
-  "banner": {
-    "content": "Run enterprise grade agent systems in your cloud with the AgentOS. [Join the waitlist.](https://www.agno.com/agent-os-waitlist)",
-    "dismissible": true
   },
   "navigation": {
     "tabs": [
@@ -404,6 +404,7 @@
                   "embedder/fireworks",
                   "embedder/huggingface",
                   "embedder/mistral",
+                  "embedder/nebius",
                   "embedder/qdrant_fastembed",
                   "embedder/sentencetransformers",
                   "embedder/together",
@@ -1221,6 +1222,7 @@
                   "examples/concepts/embedders/gemini-embedder",
                   "examples/concepts/embedders/huggingface-embedder",
                   "examples/concepts/embedders/mistral-embedder",
+                  "examples/concepts/embedders/nebius-embedder",
                   "examples/concepts/embedders/ollama-embedder",
                   "examples/concepts/embedders/openai-embedder",
                   "examples/concepts/embedders/qdrant-fastembed",
@@ -1876,6 +1878,7 @@
                   "reference/embedder/gemini",
                   "reference/embedder/huggingface",
                   "reference/embedder/mistral",
+                  "reference/embedder/nebius",
                   "reference/embedder/ollama",
                   "reference/embedder/openai",
                   "reference/embedder/sentence-transformer",
